@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#000 url("../images/christmas-lights-background-christmas-ornaments-KGP179.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-blend-mode: hard-light;
+	display: flex;
+}
+
+.fa-gifts {
+	width: 80px;
+	height: 80px;
+	color: #000;
+	
+}
+
+.icon {
+	
+	
+display: flex;
+	flex-flow: 0 1 10px;
+	justify-content: center;
+}
+
+.season {
+	display: flex;
+	text-transform: capitalize;
+	text-decoration:none;
+
+	font-family:"dancing-script";
+	font-size: 40px;
+	font-weight: 500px;
+	color: #DD0500;
+	text-shadow: 2px 2px 2px #000;
+	flex-flow: 1 1 100px;
+	justify-content: center;
+}
+
+
+
+.mainbox {
+	position: absolute;
+	top: 40px;
+	left: 150px;
+	right:150px;
+	
+	padding: 20px;
+
+	display: flex;
+	flex-direction: column;
+background: #F0E68C;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: center;
+
+	border-radius: 30px;
+	box-shadow: 0px 50px 50px rgba(0,0,0,0.5);
+	
+
+}
+
+#box1 {
+	width: 180px;
+	height: 100px;
+flex-flow: 0 1 100px;
+    background-color: #000;
+display: flex;
+	justify-content: center;
+margin:0 20px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px red;
+	color: #DD0500;
+	font-size: 40px;
+	font-weight: 500;
+}
+#box2 {
+	width: 180px;
+	height: 100px;
+	display: flex;
+    background-color: #000;
+	justify-content: center;
+	flex-flow: 0 1 100px;
+	
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px red;
+	margin:0 20px;
+	color: #DD0500;
+	font-size: 40px;
+	font-weight: 500;
+	
+}
+#box3 {
+	width: 180px;
+	height: 100px;
+	display: flex;
+    background-color: #000;
+flex-flow: 0 1 100px;
+	justify-content: center;
+margin: 0 20px;
+	align-content: center;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px red;
+	color: #DD0500;
+	font-size: 40px;
+	font-weight: 500;
+}
+#box4 {
+	width: 180px;
+	height: 100px;
+	display: flex;
+    background-color: #000;
+flex-flow: 0 1 100px;
+	justify-content: center;
+margin: 0 20px;
+	align-content: center;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px red;
+	color: #DD0500;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+
+
+
+.container {
+	display: flex;
+	/*flex-flow: 0 1 100px;*/
+
+	padding: 20px;
+	justify-content: center;
+	margin-left: 40px;
+	margin-top: 40px;
+	flex-flow: wrap;
+	
+}
+
+.anim {
+	position: relative;
+	margin-left: 10px;
+	display: flex;
+	text-transform: capitalize;
+	text-decoration:none;
+	font-family:"dancing-script";
+	font-size: 40px;
+	font-weight: 500px;
+	color: #DD0500;
+	text-shadow: 2px 2px 2px #000;
+justify-content: center;
+
+}
+
+
+/*.anim::after {
+	content: "";
+	position: absolute;
+	left: 10px;
+	width: 50%;
+	margin-left: 350px;
+
+	height: 100%;
+background:#F0E68C;
+	border-left: 2px solid #DD0500;
+	animation: typing 1.5s steps(13) infinite;		
+}
+@keyframes typing{
+	100%{
+		display: flex;
+		left: 100%;
+		margin:0 -35px 0 35px;
+		
+		
+	}
+}*/
